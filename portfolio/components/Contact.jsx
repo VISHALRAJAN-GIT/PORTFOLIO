@@ -85,12 +85,12 @@ const Contact = () => {
             className="lg:w-1/2 space-y-4 sm:space-y-5"
           >
             <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Contact Information</h3>
-            
-            <motion.div 
+
+            <motion.div
               whileHover={{ x: 8 }}
               className="glass-card p-4 sm:p-5 flex items-center gap-4"
             >
-              <motion.div 
+              <motion.div
                 whileHover={{ rotate: 360, scale: 1.1 }}
                 className="glass-icon p-3 sm:p-4 flex-shrink-0"
               >
@@ -101,12 +101,12 @@ const Contact = () => {
                 <p className="font-semibold text-sm sm:text-base md:text-lg text-white truncate">vishalrajan275@gmail.com</p>
               </div>
             </motion.div>
-            
-            <motion.div 
+
+            <motion.div
               whileHover={{ x: 8 }}
               className="glass-card p-4 sm:p-5 flex items-center gap-4"
             >
-              <motion.div 
+              <motion.div
                 whileHover={{ rotate: 360, scale: 1.1 }}
                 className="glass-icon p-3 sm:p-4 flex-shrink-0"
               >
@@ -165,7 +165,7 @@ const Contact = () => {
                 required
               />
             </div>
-            
+
             <div className="mb-4 sm:mb-5">
               <label className="block text-sm font-medium mb-2 text-gray-300">Email</label>
               <input
@@ -177,7 +177,7 @@ const Contact = () => {
                 required
               />
             </div>
-            
+
             <div className="mb-4 sm:mb-5">
               <label className="block text-sm font-medium mb-2 text-gray-300">Message</label>
               <textarea

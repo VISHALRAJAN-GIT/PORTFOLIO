@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gray-900">
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/30 via-transparent to-purple-900/30" />
-      
+
       <motion.div
         className="container mx-auto px-4 sm:px-6 py-12 sm:py-20 relative z-10"
         variants={containerVariants}
@@ -29,49 +29,49 @@ const Hero = () => {
       >
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           <motion.div className="flex-1 text-center lg:text-left order-2 lg:order-1" variants={itemVariants}>
-            <motion.p 
+            <motion.p
               className="text-indigo-400 font-semibold mb-2 sm:mb-4 tracking-widest uppercase text-xs sm:text-sm"
               variants={itemVariants}
             >
               Hello, I am
             </motion.p>
-            
-            <motion.h1 
+
+            <motion.h1
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6"
               variants={itemVariants}
             >
               <span className="text-gradient">VISHALRAJAN V</span>
             </motion.h1>
-            
-            <motion.p 
+
+            <motion.p
               className="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-8 font-medium"
               variants={itemVariants}
             >
               AI/ML Developer & Automation Engineer
             </motion.p>
-            
-            <motion.p 
+
+            <motion.p
               className="text-gray-400 mb-8 sm:mb-10 max-w-lg mx-auto lg:mx-0 text-sm sm:text-base lg:text-lg leading-relaxed px-2"
               variants={itemVariants}
             >
-              2nd-year BE CSE (AIML) student passionate about AI Agents, Chatbots, and Automation. 
+              2nd-year BE CSE (AIML) student passionate about AI Agents, Chatbots, and Automation.
               I build intelligent systems using Python, Reinforcement Learning, and NLP.
             </motion.p>
-            
-            <motion.div 
+
+            <motion.div
               className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start"
               variants={itemVariants}
             >
-              <motion.a 
-                href="#contact" 
+              <motion.a
+                href="#contact"
                 whileHover={{ y: -2, scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary flex items-center justify-center gap-2 text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
               >
                 <FaEnvelope className="text-lg" /> Contact Me
               </motion.a>
-              <motion.a 
-                href="/resume/VISHALRAJAN_V_Resume.docx" 
+              <motion.a
+                href="/resume/VISHALRAJAN_V_Resume.docx"
                 target="_blank"
                 whileHover={{ y: -2, scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
@@ -80,8 +80,8 @@ const Hero = () => {
                 <FaDownload className="text-lg" /> Resume
               </motion.a>
             </motion.div>
-            
-            <motion.div 
+
+            <motion.div
               className="flex gap-4 sm:gap-6 mt-8 sm:mt-12 justify-center lg:justify-start"
               variants={itemVariants}
             >
@@ -104,8 +104,8 @@ const Hero = () => {
               ))}
             </motion.div>
           </motion.div>
-          
-          <motion.div 
+
+          <motion.div
             className="flex-1 flex justify-center order-1 lg:order-2"
             variants={itemVariants}
           >
@@ -116,8 +116,8 @@ const Hero = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full blur-2xl sm:blur-3xl opacity-40 sm:opacity-50 scale-90 sm:scale-100" />
               <div className="absolute inset-2 sm:inset-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur-xl sm:blur-2xl opacity-30 sm:opacity-40 animate-pulse" />
-              
-              <motion.div 
+
+              <motion.div
                 whileHover={{ scale: 1.03 }}
                 className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full overflow-hidden shadow-3d glow-effect"
                 style={{
@@ -130,13 +130,13 @@ const Hero = () => {
           </motion.div>
         </div>
       </motion.div>
-      
+
       <motion.div
         className="absolute bottom-6 sm:bottom-12 left-1/2 transform -translate-x-1/2"
         animate={{ y: [0, 8, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
       >
-        <motion.div 
+        <motion.div
           whileHover={{ scale: 1.2 }}
           className="w-10 h-14 sm:w-12 sm:h-16 glass-icon rounded-xl sm:rounded-2xl flex items-center justify-center border-2 border-indigo-500/40 inner-glow"
           style={{ boxShadow: '0 8px 25px -5px rgba(99, 102, 241, 0.4), inset 0 2px 0 rgba(255, 255, 255, 0.1)' }}
