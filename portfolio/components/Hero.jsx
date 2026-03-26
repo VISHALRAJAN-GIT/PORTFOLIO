@@ -86,9 +86,9 @@ const Hero = () => {
               variants={itemVariants}
             >
               {[
-                { icon: FaGithub, href: 'https://github.com', color: 'hover:text-white' },
-                { icon: FaLinkedin, href: 'https://linkedin.com', color: 'hover:text-blue-400' },
-                { icon: FaTwitter, href: 'https://twitter.com', color: 'hover:text-sky-400' },
+                { icon: FaGithub, href: 'https://github.com/VISHALRAJAN-GIT', color: 'hover:text-white' },
+                { icon: FaLinkedin, href: 'https://www.linkedin.com/in/vishalrajan-v-7b6895337', color: 'hover:text-blue-400' },
+                { icon: FaTwitter, href: 'https://x.com/VishalrajanV', color: 'hover:text-sky-400' },
               ].map((item, i) => (
                 <motion.a
                   key={i}
