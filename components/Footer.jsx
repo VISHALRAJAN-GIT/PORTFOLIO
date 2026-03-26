@@ -29,7 +29,7 @@ const Footer = () => {
             className="flex items-center gap-6"
           >
             <a 
-              href="https://github.com" 
+              href="https://github.com/VISHALRAJAN-GIT" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-primary transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
               <FaGithub className="text-xl" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/vishalrajan-v-7b6895337" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-primary transition-colors"
@@ -45,7 +45,7 @@ const Footer = () => {
               <FaLinkedin className="text-xl" />
             </a>
             <a 
-              href="https://twitter.com" 
+              href="https://x.com/VishalrajanV" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-primary transition-colors"

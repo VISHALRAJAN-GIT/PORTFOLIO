@@ -85,12 +85,12 @@ const Contact = () => {
             className="lg:w-1/2 space-y-4 sm:space-y-5"
           >
             <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Contact Information</h3>
-            
-            <motion.div 
+
+            <motion.div
               whileHover={{ x: 8 }}
               className="glass-card p-4 sm:p-5 flex items-center gap-4"
             >
-              <motion.div 
+              <motion.div
                 whileHover={{ rotate: 360, scale: 1.1 }}
                 className="glass-icon p-3 sm:p-4 flex-shrink-0"
               >
@@ -98,15 +98,15 @@ const Contact = () => {
               </motion.div>
               <div className="min-w-0">
                 <p className="text-gray-400 text-xs sm:text-sm">Email</p>
-                <p className="font-semibold text-sm sm:text-base md:text-lg text-white truncate">vishalrajan@example.com</p>
+                <p className="font-semibold text-sm sm:text-base md:text-lg text-white truncate">vishalrajan275@gmail.com</p>
               </div>
             </motion.div>
-            
-            <motion.div 
+
+            <motion.div
               whileHover={{ x: 8 }}
               className="glass-card p-4 sm:p-5 flex items-center gap-4"
             >
-              <motion.div 
+              <motion.div
                 whileHover={{ rotate: 360, scale: 1.1 }}
                 className="glass-icon p-3 sm:p-4 flex-shrink-0"
               >
@@ -122,11 +122,11 @@ const Contact = () => {
               <p className="text-gray-400 mb-4 text-sm sm:text-base font-medium">Connect with me</p>
               <div className="flex flex-wrap gap-3 sm:gap-4">
                 {[
-                  { icon: FaGithub, href: 'https://github.com', color: 'hover:text-white', label: 'GitHub' },
-                  { icon: FaLinkedin, href: 'https://linkedin.com', color: 'hover:text-blue-400', label: 'LinkedIn' },
-                  { icon: FaTwitter, href: 'https://twitter.com', color: 'hover:text-sky-400', label: 'Twitter' },
-                  { icon: FaInstagram, href: 'https://instagram.com', color: 'hover:text-pink-400', label: 'Instagram' },
-                  { icon: FaWhatsapp, href: 'https://wa.me/919876543210', color: 'hover:text-green-400', label: 'WhatsApp' },
+                  { icon: FaGithub, href: 'https://github.com/VISHALRAJAN-GIT', color: 'hover:text-white', label: 'GitHub' },
+                  { icon: FaLinkedin, href: 'https://www.linkedin.com/in/vishalrajan-v-7b6895337?utm_source=share_via&utm_content=profile&utm_medium=member_android', color: 'hover:text-blue-400', label: 'LinkedIn' },
+                  { icon: FaTwitter, href: 'https://x.com/VishalrajanV', color: 'hover:text-sky-400', label: 'Twitter' },
+                  { icon: FaInstagram, href: 'https://www.instagram.com/ernesh.propria?igsh=eGp5djl3NDZxNWh4', color: 'hover:text-pink-400', label: 'Instagram' },
+                  { icon: FaWhatsapp, href: 'https://wa.me/917305619548', color: 'hover:text-green-400', label: 'WhatsApp' },
                 ].map((item, i) => (
                   <motion.a
                     key={i}
@@ -165,7 +165,7 @@ const Contact = () => {
                 required
               />
             </div>
-            
+
             <div className="mb-4 sm:mb-5">
               <label className="block text-sm font-medium mb-2 text-gray-300">Email</label>
               <input
@@ -177,7 +177,7 @@ const Contact = () => {
                 required
               />
             </div>
-            
+
             <div className="mb-4 sm:mb-5">
               <label className="block text-sm font-medium mb-2 text-gray-300">Message</label>
               <textarea
